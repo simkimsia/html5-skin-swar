@@ -1,0 +1,190 @@
+.x-tablet .x-list, .x-desktop .x-list {
+  border-right: 1px solid #000;
+}
+.icnOrder {
+			-webkit-mask-box-image: url('../../../lib/touch/resources/themes/images/default/pictos/shop1.png');
+	  }
+.sharepanel {
+    width:100%;
+    height:100%;
+    padding:10px;
+  
+}
+.fbshare {
+   
+    width:60px;
+    height:60px;
+    
+    background-image: url('../images/facebook_cloud.png') ;
+    background-repeat:no-repeat !important;
+   
+    
+}
+.tweetshare{
+    
+    background-image: url('../images/twitter_cloud.png') ;
+    background-repeat:no-repeat !important;
+    width: 60px;
+    height: 60px;
+   
+}
+.mailshare{
+    
+    background-image: url('../images/mail_cloud.png') ;
+    background-repeat:no-repeat !important;
+    width: 60px;
+    height: 60px;
+   
+}
+.smsshare{
+    
+    background-image: url('../images/technorati_cloud.png') ;
+    background-repeat:no-repeat !important;
+    width: 60px;
+    height: 60px;
+   
+}
+.btn {
+    margin-top: 5px;
+    float:left;
+    width:25%;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+    
+}
+.horizontal_resize{
+    
+    width:100%;
+   /* height:100%;*/
+}
+.producttitle{
+    text-align:center !important;
+    font-size: 1.2em !important;
+    color:white !important;
+    background-color: black;
+    width:100%;
+    height:35px;
+    margin-top: 5px;
+    
+}
+.productdetails{
+    font-size: 1.2em !important;
+    color:white !important;
+    background-color: black;
+    width:100%;
+    height:100%;
+}
+.tabletproductdetails{
+    font-size: 1em !important;
+   /* color:white !important;*/
+    /*background-color: black;*/
+    width:100%;
+    height:100%;
+}
+.tabproducttitle{
+    height:50px;
+    font-size: 1.4em;
+}
+.tabpriceblock {
+    height:60px;
+     
+}
+.pricephone{
+    color:green;
+    float:left;
+    
+    
+}
+.phonepriceblock{
+    padding:5px;
+    height:60px;
+}
+.productdescphone{
+    font-size: .9em;
+}
+.tabproductprice{
+    float:left;
+    color:green;
+}
+.btnHome{
+    float:right;
+    width: 80px;
+    height: 80px;
+    padding-top:10px;
+    padding-left:5px;
+    
+    background-color: #c4b6b6;
+    background-repeat:no-repeat !important;
+    background-image: url('../../../lib/touch/resources/themes/images/default/pictos/home2.png') ;
+}
+.btnSearch{
+    float:right;
+    width: 80px;
+    height: 80px;
+     padding-top:10px;
+    padding-left:5px;
+    background-color: #c4b6b6;
+    background-repeat:no-repeat !important;
+    background-image: url('../../../lib/touch/resources/themes/images/default/pictos/search.png') ;
+}
+.btnUser{
+    float:right;
+    width: 80px;
+    height: 80px;
+    padding-top:10px;
+    padding-left:5px;
+     background-color: #c4b6b6;
+    background-repeat:no-repeat !important;
+    background-image: url('../../../lib/touch/resources/themes/images/default/pictos/user.png') ;
+}
+.btnCart{
+    float:right;
+    width: 80px;
+    height: 80px;
+     padding-top:10px;
+    padding-left:5px;
+     background-color: #c4b6b6;
+    background-repeat:no-repeat !important;
+    background-image: url('../../../lib/touch/resources/themes/images/default/pictos/shop1.png') ;
+}
+.cartbtn{
+	float:right;
+	background-image:linear-gradient(-90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+	background-image:-webkit-gradient(linear, left top, left bottom,color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.2)));
+	background-image:-moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#80ffffff', EndColorStr='#20ffffff');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#80ffffff', EndColorStr='#20ffffff')";
+	/*background-color:rgb(51, 51, 51);*/
+        background-color:green;
+	width:120px;
+	height:40px;
+	/*border:3px solid green;*/ /*rgb(102, 102, 102);*/
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow:0px 0px 0px #ccc;
+	-moz-box-shadow: 0px 0px 0px #ccc;
+	-webkit-box-shadow:0px 0px 0px #ccc;
+	font-size:.9em;
+	/*font-weight:bold;*/
+	color:rgb(255, 255, 255);
+        
+	text-shadow:1px 1px 1px rgb(0, 0, 0);
+	
+	padding: 5px ;
+        
+	text-align: center;
+}
+.buttonwrapper{
+    padding:1px;
+    width:100%;
+    height:100%;
+}
+.cartbtn:active,.cartbtn:focus{
+	background-image:linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+	background-image:-webkit-gradient(linear, left bottom, left top,color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.2)));
+	background-image:-moz-linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+	font-weight:normal;
+	color:rgb(0, 0, 0);
+}

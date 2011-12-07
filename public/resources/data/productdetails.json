@@ -1,0 +1,9 @@
+{
+    "products":[{
+        "id": "p1",
+        "title":"Product Title ",
+        "price":"5$",
+        "desc" :"Some Description",
+        "images":["public/resources/images/products/image1.jpg","public/resources/images/products/image2.jpg","public/resources/images/products/image3.jpg"]
+    }]
+}

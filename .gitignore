@@ -9,3 +9,5 @@ app/tmp/cache/cake*
 tags
 app/webroot/coverage/*
 app/views/themed/2_cover/*
+/nbproject/private/
+/lib/touch/resources/sass/.sass-cache/
