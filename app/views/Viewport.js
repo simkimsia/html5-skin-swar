@@ -9,18 +9,12 @@ Lastcowboy.Viewport = Ext.extend(Ext.Panel, {
     id        : 'viewport',
     layout    : 'card',
     fullscreen: true,
-
+    //cls: Ext.is.Phone ? 'iPhoneBody' : 'iPadBody',
     initComponent: function() {
-        var pdetails;
-        if(!Ext.is.Phone){
-            pdetails=new Lastcowboy.views.productDetailsTabletViewPanel();
-        }
-        else{
-            pdetails=new Lastcowboy.views.NavigationPanel()
-        }
+       
         Ext.apply(Lastcowboy.views,{
-			 //navigationPanel:new Lastcowboy.views.NavigationPanel()
-                       navigationPanel:pdetails
+                            
+                          productPagePanel: new Lastcowboy.views.ProductPageViewPanel()
                          
                         
 		});
@@ -30,7 +24,8 @@ Lastcowboy.Viewport = Ext.extend(Ext.Panel, {
             ],
 
             items: [
-                Lastcowboy.views.navigationPanel
+                
+                Lastcowboy.views.productPagePanel
             ]
         });
 

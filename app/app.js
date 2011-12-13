@@ -6,9 +6,10 @@
 Lastcowboy = new Ext.Application({
     defaultTarget: "viewport",
     name: "Lastcowboy",
-    defaultUrl: 'Lastcowboy/p1',
+    defaultUrl: 'lastcowboy/showProductDetails/p1',
     launch: function() {
         Lastcowboy.socialshare=false;
+        Lastcowboy.socialshareactive=0;
         this.viewport = new Lastcowboy.Viewport();
     }
 });

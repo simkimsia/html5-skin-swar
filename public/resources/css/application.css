@@ -1,190 +1,463 @@
-.x-tablet .x-list, .x-desktop .x-list {
-  border-right: 1px solid #000;
-}
+/* 
+    Document   : application
+    Created on : 11 Dec, 2011, 4:16:55 PM
+    Author     : sandip
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
 .icnOrder {
-			-webkit-mask-box-image: url('../../../lib/touch/resources/themes/images/default/pictos/shop1.png');
+		-webkit-mask-box-image: url('../../../lib/touch/resources/themes/images/default/pictos/shop1.png');
+                        
 	  }
-.sharepanel {
-    width:100%;
-    height:100%;
-    padding:10px;
-  
-}
-.fbshare {
-   
-    width:60px;
-    height:60px;
+.icnFavourite {
     
-    background-image: url('../images/facebook_cloud.png') ;
-    background-repeat:no-repeat !important;
-   
-    
+            -webkit-mask-box-image: url('../../../lib/touch/resources/themes/images/default/pictos/heart.png') !important;
+            
+         }
+
+/**********************************
+ *    iPad Landscape Version      *
+ **********************************/
+	.iPadBody {
+		background:transparent;
+	}
+	.iPadImg { 
+	   width: 500px !important;
+	   height: 550px !important;
+	   align: center !important;
+	}
+	.iPadCarousel .x-carousel-body {
+		width: 500px !important; 
+		height: 580px !important; 
+		margin-left : 0px; 
+		background : transparent;
+		left: -250px !important;
+		top: 20px !important;
+	}
+	.iPadSingleProduct {
+		width:500px; 
+		left:-250px; 
+		top: 10px;
+	}
+	.iPadFacebook {
+		background: url(../images/iPad/Facebook.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPadFacebook.x-button-pressed {
+		background: url(../images/iPad/Facebook.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPadTwitter {
+		background: url(../images/iPad/Twitter.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadTwitter.x-button-pressed {
+		background: url(../images/iPad/Twitter.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadeMail,.iPadeMail.x-button-pressed {
+		background: url(../images/iPad/Mail.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPadeChat {
+		background: url(../images/iPad/Chat.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPadeChat.x-button-pressed {
+		background: url(../images/iPad/Chat.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.tabbarPanel {
+		border : 0px;
+		top: 90%;
+	}
+	.product-detail {
+		background : transparent; 
+		padding : 15px; 
+		top : 155px;
+	}
+	.iPadProductDetailPanel {
+		background : transparent; 
+		padding : 15px; 
+		width: 500px;
+		top: -50px;
+		left: 250px;
+	}
+	.iPadTabbarButton.x-tabbar.x-docked-bottom .x-tab img {
+		-webkit-mask-size: 30px;
+		min-height: 30px;
+		min-width: 30px;
+		display: block;
+		margin: 8px auto 8px;
+		position: relative;
+	}
+	.iPadProductPricePanel {
+		left:250px !important;
+		top:-112px !important;
+		width:500px !important;
+		padding-left:15px !important;
+	}
+/**********************************
+ *    iPad Portrait Version       *
+ **********************************/
+
+@media only screen and (orientation:portrait){
+	/* portrait mode */
+		.iPadBody {
+		background:transparent;
+	}
+	.iPadImg { 
+	   width: 340px !important;
+	   height: 380px !important;
+	   align: center !important;
+	}
+	.iPadCarousel .x-carousel-body {
+		width: 340px !important; 
+		height: 410px !important; 
+		margin-left : 0px; 
+		background : transparent;
+		left: -192px !important; 
+		top: 60px !important;
+	}
+	.iPadSingleProduct {
+		width:340px; 
+		left:-192px; 
+		top: 60px;
+	}
+	.iPadFacebook {
+		background: url(../images/iPad/Facebook.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadFacebook.x-button-pressed {
+		background: url(../images/iPad/Facebook.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadTwitter {
+		background: url(../images/iPad/Twitter.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadTwitter.x-button-pressed {
+		background: url(../images/iPad/Twitter.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadeMail {
+		background: url(../images/iPad/Mail.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadeMail.x-button-pressed {
+		background: url(../images/iPad/Mail.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadeChat {
+		background: url(../images/iPad/Chat.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadeChat.x-button-pressed {
+		background: url(../images/iPad/Chat.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadProductDetailPanel {
+		background : transparent; 
+		padding : 15px; 
+		top : 155px;			
+		width: 100%;
+		left: 0px;
+	}
+	.iPadProductPricePanel {
+		left:250px !important;
+		top:-112px !important;
+		width:500px !important;
+		padding-left:15px !important;
+	}
 }
-.tweetshare{
-    
-    background-image: url('../images/twitter_cloud.png') ;
-    background-repeat:no-repeat !important;
-    width: 60px;
-    height: 60px;
-   
-}
-.mailshare{
-    
-    background-image: url('../images/mail_cloud.png') ;
-    background-repeat:no-repeat !important;
-    width: 60px;
-    height: 60px;
-   
-}
-.smsshare{
-    
-    background-image: url('../images/technorati_cloud.png') ;
-    background-repeat:no-repeat !important;
-    width: 60px;
-    height: 60px;
-   
-}
-.btn {
-    margin-top: 5px;
-    float:left;
-    width:25%;
-    padding-left: 12px;
-    padding-right: 12px;
-    
-    
-}
-.horizontal_resize{
-    
-    width:100%;
-   /* height:100%;*/
-}
-.producttitle{
-    text-align:center !important;
-    font-size: 1.2em !important;
-    color:white !important;
-    background-color: black;
-    width:100%;
-    height:35px;
-    margin-top: 5px;
-    
-}
-.productdetails{
-    font-size: 1.2em !important;
-    color:white !important;
-    background-color: black;
-    width:100%;
-    height:100%;
-}
-.tabletproductdetails{
-    font-size: 1em !important;
-   /* color:white !important;*/
-    /*background-color: black;*/
-    width:100%;
-    height:100%;
-}
-.tabproducttitle{
-    height:50px;
-    font-size: 1.4em;
-}
-.tabpriceblock {
-    height:60px;
-     
-}
-.pricephone{
-    color:green;
-    float:left;
-    
-    
-}
-.phonepriceblock{
-    padding:5px;
-    height:60px;
-}
-.productdescphone{
-    font-size: .9em;
-}
-.tabproductprice{
-    float:left;
-    color:green;
-}
-.btnHome{
-    float:right;
-    width: 80px;
-    height: 80px;
-    padding-top:10px;
-    padding-left:5px;
-    
-    background-color: #c4b6b6;
-    background-repeat:no-repeat !important;
-    background-image: url('../../../lib/touch/resources/themes/images/default/pictos/home2.png') ;
-}
-.btnSearch{
-    float:right;
-    width: 80px;
-    height: 80px;
-     padding-top:10px;
-    padding-left:5px;
-    background-color: #c4b6b6;
-    background-repeat:no-repeat !important;
-    background-image: url('../../../lib/touch/resources/themes/images/default/pictos/search.png') ;
-}
-.btnUser{
-    float:right;
-    width: 80px;
-    height: 80px;
-    padding-top:10px;
-    padding-left:5px;
-     background-color: #c4b6b6;
-    background-repeat:no-repeat !important;
-    background-image: url('../../../lib/touch/resources/themes/images/default/pictos/user.png') ;
-}
-.btnCart{
-    float:right;
-    width: 80px;
-    height: 80px;
-     padding-top:10px;
-    padding-left:5px;
-     background-color: #c4b6b6;
-    background-repeat:no-repeat !important;
-    background-image: url('../../../lib/touch/resources/themes/images/default/pictos/shop1.png') ;
-}
-.cartbtn{
-	float:right;
-	background-image:linear-gradient(-90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
-	background-image:-webkit-gradient(linear, left top, left bottom,color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.2)));
-	background-image:-moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#80ffffff', EndColorStr='#20ffffff');
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#80ffffff', EndColorStr='#20ffffff')";
-	/*background-color:rgb(51, 51, 51);*/
-        background-color:green;
-	width:120px;
-	height:40px;
-	/*border:3px solid green;*/ /*rgb(102, 102, 102);*/
-	border-radius:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	box-shadow:0px 0px 0px #ccc;
-	-moz-box-shadow: 0px 0px 0px #ccc;
-	-webkit-box-shadow:0px 0px 0px #ccc;
-	font-size:.9em;
-	/*font-weight:bold;*/
-	color:rgb(255, 255, 255);
-        
-	text-shadow:1px 1px 1px rgb(0, 0, 0);
+
+/**********************************
+ *    iPhone Protrait Version     *
+ **********************************/
+
+	.iPhoneBody {
+		background:white;
+		font-size: 12px;
+	}
+	.iPhoneImg { 
+	   width: 150px !important;
+	   height: 160px !important;
+	   align: center !important;
+	}
+	.iPhoneCarousel .x-carousel-body {
+		width: 150px !important; 
+		height: 180px !important; 
+		background : transparent;
+		left: -140px !important; 
+		top: 5px !important;
+	}
+	.iPhoneSingleProduct {
+		width:150px; 
+		left:-140px; 
+		top: 5px;
+	}
+	.connect_button_slider {
+		left: 76px;
+		top: -2px;
+	}
+	.iPhoneFacebook, .iPhoneFacebook.x-button-pressed {
+		background: url(../images/iPhone/Facebook.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
 	
-	padding: 5px ;
-        
-	text-align: center;
-}
-.buttonwrapper{
-    padding:1px;
-    width:100%;
-    height:100%;
-}
-.cartbtn:active,.cartbtn:focus{
-	background-image:linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
-	background-image:-webkit-gradient(linear, left bottom, left top,color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(255, 255, 255, 0.2)));
-	background-image:-moz-linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
-	font-weight:normal;
-	color:rgb(0, 0, 0);
+	.iPhoneTwitter,.iPhoneTwitter.x-button-pressed {
+		background: url(../images/iPhone/Twitter.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPhoneeChat {
+		background: url(../images/iPhone/Chat.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPhoneeChat.x-button-pressed {
+		background: url(../images/iPhone/Chat.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPhoneeMail {
+		background: url(../images/iPhone/Mail.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPhoneeMail.x-button-pressed {
+		background: url(../images/iPhone/Mail.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPhoneProductDetailPanel {
+		background : transparent; 
+		padding : 10px; 
+		top : -20px;
+		width: 240px !important;
+		left: 90px;
+	}
+	.iPhoneProductTitle {
+		height : 20px !important;
+		top : 10px !important;
+		left : 15px !important;
+		background : transparent;
+	}
+	.iPhoneProductPricePanel {
+		width:220px !important;
+		left:90px; 
+		top:0px; 
+	}
+	.iPhoneTabbarButton.x-tabbar.x-docked-bottom .x-tab img {
+		-webkit-mask-size: 24px;
+		min-height: 24px;
+		min-width: 24px;
+		display: block;
+		margin: 8px auto 8px;
+		position: relative;
+	}
+/********************************
+*     iPhone Portrait Version   *
+*********************************/
+@media only screen and (orientation:portrait){
+	/* portrait mode */
+	.iPhoneBody {
+		background:white;
+		font-size: 12px;
+	}
+	.iPhoneImg { 
+	   width: 250px !important;
+	   height: 240px !important;
+	   align: center !important;
+	}
+	.iPhoneCarousel .x-carousel-body {
+		width: 250px !important; 
+		height: 260px !important; 
+		background : transparent;
+		left: 0px !important; 
+		top: 10px !important;
+	}
+	.connect_button_slider {
+		left: 76px;
+		top: -2px;
+	}
+	.iPhoneFacebook, .iPhoneFacebook.x-button-pressed {
+		background: url(../images/iPhone/Facebook.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	
+	.iPhoneTwitter,.iPhoneTwitter.x-button-pressed {
+		background: url(../images/iPhone/Twitter.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+		.iPhoneeChat {
+		background: url(../images/iPhone/Chat.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPhoneeChat.x-button-pressed {
+		background: url(../images/iPhone/Chat.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPhoneeMail {
+		background: url(../images/iPhone/Mail.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPhoneeMail.x-button-pressed {
+		background: url(../images/iPhone/Mail.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPhoneProductDetailPanel {
+		background : transparent; 
+		padding : 15px !important; 
+		top : 152px !important;
+		width: 100% !important;
+		left: 0px !important;
+	}
+	.iPhoneProductTitle {
+		top : 10px;
+		left : 0px !important;
+		height : 20px !important; 
+		background : transparent;
+	}
+	.iPhoneProductPricePanel {
+		width:100% !important;
+		left:40px !important; 
+		top:210px !important; 
+	}
 }
